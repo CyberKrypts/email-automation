@@ -43,9 +43,6 @@ if __name__=='__main__':
 
     if len(sys.argv) == 2:
         path = sys.argv[1]
-        config_file = open('config.py','r')
-        config = json.loads(config_file.read())
-        config_file.close()
 
         message = """Subject: Cyberkrypts web pen-testing webinar invitation\n\n
 
